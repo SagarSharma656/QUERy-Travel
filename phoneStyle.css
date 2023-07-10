@@ -1,0 +1,100 @@
+@media screen and (max-width: 800px){
+    .nav-links{
+        height: 100vh;
+        width: 200px;
+        position: fixed;
+        background-color: black;
+        color: #CCCCCC;
+        top: 0;
+        right: -200px;
+        transition: 0.5;
+        z-index: 2;
+    }
+
+    .other-nav-links{
+        width: 60%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .nav-links li{
+        display: block !important;
+        margin: 8px 8px 8px 15px;
+        text-align: left;
+    }
+    
+    nav .list{
+        display: inline-block !important;
+        color: white;
+        margin: 10px;
+        font-weight: bolder;
+    }
+
+    .home>div :nth-child(2){
+        font-size: 2rem;
+    }
+
+    .tours{
+        flex-direction: column;
+    }
+    .tours>div{
+        margin-bottom: 50px;
+
+    }
+
+    .holiday-container{
+        flex-direction: column;
+    }
+    .holiday-container .box1 img{
+        margin-bottom: 30px;
+    }
+    .holiday-container .box2 h2{
+        font-size: 1rem;
+    }
+    .holiday-container .box2 h1{
+        font-size: 2rem;
+    }
+
+    .popular-tour-container>h1{
+        font-size: 2rem;
+    }
+    .popular-tour{
+        flex-direction: column;
+    }
+    .tour-box{
+        width: 90%;
+        margin-bottom: 50px;
+    }
+
+    .culture{
+        flex-direction: column;
+    }
+    .culture #box1 h3{
+        font-size: 1rem;
+    }
+    .culture #box1 h1{
+        font-size: 2rem;
+    }
+
+    .login-container{
+        flex-direction: column;
+    }
+    .login-container #box1{
+        margin-bottom: 30px;
+    }
+    .login-container #box2 input{
+        margin-bottom: 10px;
+    }
+
+    .login-container #box1 h1{
+        font-size: 2rem;
+    }
+
+    footer>section div{
+        padding: 10px;
+    }
+    footer>section h3{
+        font-size: 1rem;
+    }
+
+}
